@@ -8,7 +8,7 @@
     </div>
     <div class="col-12">
       <div class="row text-center flex flex-center">
-        <div class="col-6 q-py-md">
+        <div class="col-12 q-py-md">
           <div
             v-if="random"
             :key="random.id"
