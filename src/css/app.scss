@@ -1,1 +1,11 @@
 // app global css in SCSS form
+body {
+    font-family: 'Poppins', sans-serif; /* Set Poppins as the default font */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 800;
+    font-family: 'Sansita', sans-serif; /* Use Sansita for headings */
+  }
+  
