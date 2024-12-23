@@ -63,186 +63,186 @@ onMounted(() => {
 
 const animals = ref([
   {
-    img: "/stickers/tiger.png",
+    img: "stickers/tiger.png",
     id: 1,
     name: "Tiger",
     spirit:
-      "The tiger embodies courage, strength, and independence, symbolizing unwavering determination and natural leadership. Its mystique and intuition reflect a deep connection to the self and surroundings, inspiring resilience and passion.",
+      "The tiger is all about bravery and independence. It teaches us to stay determined and confident, even when facing challenges. Its mysterious nature reminds us to trust our instincts and embrace our inner strength.",
   },
   {
-    img: "/stickers/bear.png",
+    img: "stickers/bear.png",
     id: 2,
     name: "Bear",
     spirit:
-      "The bear symbolizes strength, introspection, and protection. It represents a balance between assertiveness and nurturing, showcasing wisdom and a connection to nature.",
+      "The bear is a symbol of strength and protection. It encourages us to find a balance between being assertive and caring, showing us the importance of wisdom and staying grounded.",
   },
   {
-    img: "/stickers/giraffe.png",
+    img: "stickers/giraffe.png",
     id: 3,
     name: "Giraffe",
     spirit:
-      "The giraffe represents grace, perception, and foresight. Its ability to see far ahead symbolizes visionary thinking and a gentle, kind spirit.",
+      "The giraffe inspires us to see the bigger picture and stay graceful under pressure. It reminds us to stay kind-hearted while keeping our vision clear for the future.",
   },
   {
-    img: "/stickers/lion.png",
+    img: "stickers/lion.png",
     id: 4,
     name: "Lion",
     spirit:
-      "The lion is a symbol of courage, leadership, and strength. It embodies a regal presence, self-confidence, and the ability to inspire others.",
+      "The lion embodies courage and leadership. It reminds us to stand tall, inspire others, and face life's challenges with confidence and a calm, regal energy.",
   },
   {
-    img: "/stickers/elephant.png",
+    img: "stickers/elephant.png",
     id: 5,
     name: "Elephant",
     spirit:
-      "The elephant signifies wisdom, loyalty, and power. It represents emotional intelligence, strong family bonds, and resilience.",
+      "The elephant represents wisdom and loyalty. It teaches us the value of emotional strength, close relationships, and facing life with resilience and patience.",
   },
   {
-    img: "/stickers/hippo.png",
+    img: "stickers/hippo.png",
     id: 6,
     name: "Hippo",
     spirit:
-      "The hippo embodies balance, adaptability, and a calm demeanor. It symbolizes strength combined with the ability to thrive in diverse environments.",
+      "The hippo shows us the beauty of staying calm and adaptable. It reminds us that strength doesn’t have to be loud and that thriving in different situations is a sign of true power.",
   },
   {
-    img: "/stickers/rabbit.png",
+    img: "stickers/rabbit.png",
     id: 7,
     name: "Rabbit",
     spirit:
-      "The rabbit symbolizes creativity, sensitivity, and fertility. It represents quick thinking, adaptability, and a gentle spirit.",
+      "The rabbit symbolizes quick thinking and creativity. It encourages us to stay adaptable and find joy in the little things, reminding us that sensitivity is a strength, not a weakness.",
   },
   {
-    img: "/stickers/crocodile.png",
+    img: "stickers/crocodile.png",
     id: 8,
     name: "Crocodile",
     spirit:
-      "The crocodile signifies primal strength, patience, and survival instincts. It embodies ancient wisdom and the ability to navigate emotional waters.",
+      "The crocodile teaches us patience and survival. It’s a reminder to stay calm under pressure, trust our instincts, and move strategically when the time is right.",
   },
   {
-    img: "/stickers/zebra.png",
+    img: "stickers/zebra.png",
     id: 9,
     name: "Zebra",
     spirit:
-      "The zebra represents individuality, balance, and agility. Its unique stripes symbolize the harmony of opposites and standing out in a crowd.",
+      "The zebra celebrates individuality and balance. Its unique stripes remind us that standing out is something to embrace, and harmony comes from appreciating life’s contrasts.",
   },
   {
-    img: "/stickers/wild-boar.png",
+    img: "stickers/wild-boar.png",
     id: 10,
     name: "Wild Boar",
     spirit:
-      "The wild boar symbolizes courage, resourcefulness, and determination. It represents fearlessness in the face of challenges and a grounded nature.",
+      "The wild boar inspires courage and resourcefulness. It reminds us to face challenges head-on, trust in our abilities, and stay grounded no matter what comes our way.",
   },
   {
-    img: "/stickers/sheep.png",
+    img: "stickers/sheep.png",
     id: 11,
     name: "Sheep",
     spirit:
-      "The sheep signifies gentleness, community, and trust. It represents nurturing qualities and the ability to find peace in harmony.",
+      "The sheep is all about kindness and community. It teaches us to value trust and harmony, showing that true strength comes from gentleness and connection.",
   },
   {
-    img: "/stickers/rhino.png",
+    img: "stickers/rhino.png",
     id: 12,
     name: "Rhino",
     spirit:
-      "The rhino embodies strength, endurance, and resilience. It represents a powerful connection to the earth and the ability to stay grounded.",
+      "The rhino represents resilience and staying grounded. It reminds us to stand strong in our convictions while staying connected to the natural world and our own instincts.",
   },
   {
-    img: "/stickers/reindeer.png",
+    img: "stickers/reindeer.png",
     id: 13,
     name: "Reindeer",
     spirit:
-      "The reindeer symbolizes endurance, resourcefulness, and adaptability. It represents the spirit of journeying and thriving in challenging environments.",
+      "The reindeer encourages resourcefulness and adaptability. It reminds us to embrace life’s journeys and thrive even in the most challenging environments.",
   },
   {
-    img: "/stickers/pig.png",
+    img: "stickers/pig.png",
     id: 14,
     name: "Pig",
     spirit:
-      "The pig embodies abundance, intelligence, and curiosity. It symbolizes wealth, determination, and a strong work ethic.",
+      "The pig teaches us about curiosity and hard work. It reminds us that success comes from persistence and enjoying life’s abundance without forgetting our roots.",
   },
   {
-    img: "/stickers/panda.png",
+    img: "stickers/panda.png",
     id: 15,
     name: "Panda",
     spirit:
-      "The panda represents peace, balance, and gentleness. It symbolizes a harmonious spirit and the ability to find joy in simplicity.",
+      "The panda symbolizes peace and balance. It encourages us to find joy in simplicity and reminds us of the importance of harmony in both our surroundings and ourselves.",
   },
   {
-    img: "/stickers/lynx.png",
+    img: "stickers/lynx.png",
     id: 16,
     name: "Lynx",
     spirit:
-      "The lynx embodies mystery, intuition, and keen observation. It symbolizes a secretive yet insightful spirit that sees beyond the surface.",
+      "The lynx embodies intuition and observation. It reminds us to look beyond the surface, trust our inner voice, and embrace the mysteries of life.",
   },
   {
-    img: "/stickers/horse.png",
+    img: "stickers/horse.png",
     id: 17,
     name: "Horse",
     spirit:
-      "The horse signifies freedom, strength, and endurance. It represents a wild, untamed spirit and the drive to explore and achieve.",
+      "The horse inspires freedom and strength. It reminds us to explore new horizons and stay determined, embracing life’s wild and untamed energy.",
   },
   {
-    img: "/stickers/hedgehog.png",
+    img: "stickers/hedgehog.png",
     id: 18,
     name: "Hedgehog",
     spirit:
-      "The hedgehog symbolizes protection, curiosity, and resourcefulness. It represents a gentle yet determined nature and the ability to adapt.",
+      "The hedgehog symbolizes resourcefulness and protection. It teaches us to stay curious and adaptable, while knowing when to shield ourselves from negativity.",
   },
   {
-    img: "/stickers/goat.png",
+    img: "stickers/goat.png",
     id: 19,
     name: "Goat",
     spirit:
-      "The goat signifies ambition, independence, and resilience. It represents the ability to climb life's mountains with perseverance and confidence.",
+      "The goat represents determination and independence. It encourages us to tackle challenges with perseverance and reminds us that every mountain can be climbed with patience.",
   },
   {
-    img: "/stickers/fox.png",
+    img: "stickers/fox.png",
     id: 20,
     name: "Fox",
     spirit:
-      "The fox embodies intelligence, adaptability, and cunning. It symbolizes a clever and resourceful nature that thrives in any situation.",
+      "The fox is all about intelligence and adaptability. It reminds us to stay clever, think on our feet, and find creative solutions to life’s obstacles.",
   },
   {
-    img: "/stickers/flamingo.png",
+    img: "stickers/flamingo.png",
     id: 21,
     name: "Flamingo",
     spirit:
-      "The flamingo represents grace, balance, and vibrant energy. It symbolizes standing out and embracing uniqueness with confidence.",
+      "The flamingo celebrates grace and uniqueness. It inspires us to embrace who we are and adds a splash of vibrant energy to remind us that life is meant to stand out.",
   },
   {
-    img: "/stickers/cow.png",
+    img: "stickers/cow.png",
     id: 22,
     name: "Cow",
     spirit:
-      "The cow signifies nurturing, abundance, and patience. It represents a grounded and generous spirit that provides for others.",
+      "The cow symbolizes generosity and patience. It teaches us to nurture those around us and find joy in life’s abundance and simplicity.",
   },
   {
-    img: "/stickers/cheetah.png",
+    img: "stickers/cheetah.png",
     id: 23,
     name: "Cheetah",
     spirit:
-      "The cheetah embodies speed, focus, and precision. It symbolizes the ability to act swiftly and achieve goals with determination.",
+      "The cheetah reminds us of the power of focus and speed. It inspires us to act quickly when opportunities arise and achieve our goals with precision.",
   },
   {
-    img: "/stickers/buffalo.png",
+    img: "stickers/buffalo.png",
     id: 24,
     name: "Buffalo",
     spirit:
-      "The buffalo signifies strength, abundance, and perseverance. It represents a deep connection to the land and a spirit of gratitude.",
+      "The buffalo represents strength and gratitude. It teaches us to stay grounded and appreciate the abundance that life has to offer.",
   },
   {
-    img: "/stickers/antelope.png",
+    img: "stickers/antelope.png",
     id: 25,
     name: "Antelope",
     spirit:
-      "The antelope symbolizes agility, intuition, and quick thinking. It represents a lively and alert spirit that thrives in dynamic environments.",
+      "The antelope inspires agility and intuition. It reminds us to stay alert, move gracefully, and adapt to life’s ever-changing pace.",
   },
   {
-    img: "/stickers/alpaca.png",
+    img: "stickers/alpaca.png",
     id: 26,
     name: "Alpaca",
     spirit:
-      "The alpaca embodies gentleness, adaptability, and creativity. It symbolizes a nurturing and cooperative spirit with a touch of playfulness.",
+      "The alpaca embodies kindness and creativity. It reminds us to approach life with a gentle spirit and enjoy the playful moments along the way.",
   },
 ]);
 
